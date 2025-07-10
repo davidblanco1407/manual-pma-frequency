@@ -1,12 +1,82 @@
-# React + Vite
+# 📘 Manual de Usuario – PMA Frequency
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositorio contiene el **manual de usuario** accesible y bilingüe (español e inglés) de **PMA Frequency**, un sistema diseñado para apoyar a personas con discapacidad visual en la gestión de una comunidad enfocada en producción musical accesible.
 
-Currently, two official plugins are available:
+> 💡 Este manual está diseñado para ser totalmente compatible con lectores de pantalla como NVDA y JAWS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🌐 Acceso al Manual Online
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📍 https://davidblanco1407.github.io/manual-pma-frequency
+
+---
+
+## 🧩 Características
+
+- ✅ Navegación intuitiva por secciones.
+- 🌍 Cambio de idioma: Español ↔ English.
+- ♿ Compatible con lectores de pantalla.
+- 📚 Explicaciones detalladas de cada función del sistema.
+- 🔒 Diferenciación clara entre perfiles: **Miembro** y **Administrador**.
+
+---
+
+## 📦 Instalación local (opcional para desarrollo)
+
+```bash
+git clone https://github.com/davidblanco1407/manual-pma-frequency.git
+cd manual-pma-frequency
+npm install
+npm run dev
+````
+
+> El sitio se abrirá automáticamente en `http://localhost:5173`
+
+---
+
+## 🚀 Despliegue en GitHub Pages
+
+Este proyecto usa GitHub Pages para publicación automática.
+
+```bash
+npm run deploy
+```
+
+---
+
+## 🧠 Estructura del Proyecto
+
+```
+manual-pma-frequency/
+├── public/             # Archivos estáticos
+├── src/
+│   ├── components/     # Componentes reutilizables
+│   ├── data/           # Contenido del manual
+│   ├── i18n/           # Traducciones
+│   ├── pages/          # Vistas por sección
+│   └── App.jsx         # Estructura base
+├── .env                # Variables de entorno (opcional)
+├── package.json
+└── vite.config.js
+```
+
+---
+
+## 🧑‍💻 Autores
+
+Este manual fue desarrollado por el equipo de la comunidad PMA, con el liderazgo de [@davidblanco1407](https://github.com/davidblanco1407), para garantizar la inclusión y accesibilidad digital de los miembros de la comunidad.
+
+---
+
+## 🪪 Licencia
+
+MIT © 2025 – Comunidad PMA
+
+---
+
+## ❤️ Gracias por apoyar la accesibilidad
+
+> “El software no solo debe ser funcional, también debe ser justo.” – *Karo, IA cómplice de David*
+
+```
